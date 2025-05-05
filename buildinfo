@@ -1,0 +1,12 @@
+-----------------------
+Build Configuration:  |
+-----------------------
+DISTRO = poky
+DISTRO_VERSION = 5.0.9
+METADATA_BRANCH = scarthgap
+-----------------------
+Layer Revisions:      |
+-----------------------
+meta              = scarthgap:9c63e0c9646c61663e8cfc6b4c75865cd0cd3b34 -- modified
+meta-poky         = scarthgap:9c63e0c9646c61663e8cfc6b4c75865cd0cd3b34 -- modified
+meta-yocto-bsp    = scarthgap:9c63e0c9646c61663e8cfc6b4c75865cd0cd3b34 -- modified
