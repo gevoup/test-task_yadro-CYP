@@ -55,9 +55,14 @@ runqemu runqemu qemux86-64
 go version
 cat /etc/buildinfo
 ```
+Результат выполнения команд:
 
-- Патчи к репозиториям хранятся в файле
-- Скриншот команды go version из qemu хранится в файле
-- Файл buildinfo из собранной системы размещён в файле
 
-- Так же, изменённый файл конфигурации образа `local.conf` размещён в файле 
+![Результат выполнения команд](qemu_go_buildinfo.png)
+
+
+- Патчи к репозиториям хранятся в файле [0001-feat-go-update-Go-to-1.24.2.patch](0001-feat-go-update-Go-to-1.24.2.patch)
+- Скриншот команды go version из qemu хранится в файле [go_version.png](go_version.png)
+- Файл buildinfo из собранной системы размещён в файле [buildinfo](buildinfo)
+
+- Так же, изменённый файл конфигурации образа `local.conf` размещён в файле [local.conf](local.conf)
